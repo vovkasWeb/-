@@ -1,0 +1,64 @@
+:root {
+   --color1: #05B1B1;
+   --color2: #52339a;
+}
+
+html,
+body {
+   overflow: hidden;
+   height: 100%;
+}
+
+body {
+   background: url('123_1.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+.col-12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.block {
+   border-radius: 7px;
+   margin: 45% 0;
+   padding: 15px 30px;
+   border: 1px solid #fff;
+
+}
+
+h1 {
+   color: #05B1B1;
+}
+
+.btns {
+   margin: 20px 0;
+   display: flex;
+
+}
+
+.btns a {
+   color: #000;
+   border: 1px solid #000;
+   border-radius: 10px;
+   font-weight: 700;
+   margin: 0 5px;
+}
+
+
+.btn img {
+   margin-left: 3px;
+   max-width: 30px;
+   max-height: 30px;
+
+}
+
+.text-h1 {
+   font-weight: 900;
+
+}
